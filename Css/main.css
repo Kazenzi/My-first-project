@@ -1,0 +1,40 @@
+/*section-a styles*/
+#section-a h1{
+    text-align: center;
+
+}
+
+#section-a .row{
+
+    margin-top: 20px;
+}
+#section-a .card{
+    background-color: red;
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 0.7em;
+}
+#section-a .card:hover{
+    box-shadow: 3px 3px 3px 3px#c6c8ca;
+
+}
+#section-a .card img{
+    width: 100%;
+    height: 200px;
+}
+#section-a .card img:hover{
+   opacity: 0.3;
+}
+/*section-b styles*/
+#section-b{
+    background-color: red;
+    text-align: center;
+    font-family: monospace;
+    color: white;
+    background-image: url("../images/d5.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    height: 80vh;
+    padding-top: 100px;
+}
